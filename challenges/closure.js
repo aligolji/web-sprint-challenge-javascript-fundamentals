@@ -18,7 +18,7 @@ myFunction();
 
 // Explanation: 
 
-  /* There is a closure created between nestedFunction and its parent function, myFunction. Functions can access variables outside of their own scope to find the variable that has been passed to it. Since the variable internal is not defined within function nestedFunction, nestedFunction can access the variable internal from its parent function. */
+  /* There is a closure created between nestedFunction and its parent function, myFunction. Functions can access variables outside of their own scope to find the variable that has been passed to it. Since the variable internal is not defined within function nestedFunction, nestedFunction can access the variable internal from its parent function, which internal is in closure with. */
 
 /* Task 2: Counter */
 
